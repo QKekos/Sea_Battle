@@ -1,4 +1,4 @@
-from Exceptions import *
+from Exceptions import FieldUsedPointException
 from Input_settings import Settings
 from Dot import Dot
 from Player import Player

@@ -1,4 +1,4 @@
-from Exceptions import *
+from Exceptions import FieldCantAddShipException, NonExistingShipError
 from Field import Field
 from Ship import Ship
 

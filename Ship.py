@@ -1,5 +1,6 @@
-from Dot import Dot
 from Exceptions import NonExistingShipError
+from Dot import Dot
+
 
 
 class Ship:

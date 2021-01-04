@@ -1,6 +1,6 @@
-from Exceptions import *
-from Ship import Ship
+from Exceptions import FieldCantAddShipException, FieldUsedPointException
 from Dot import Dot
+from Ship import Ship
 from random import randint
 
 
