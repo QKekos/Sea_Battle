@@ -88,7 +88,7 @@ class Player(Field):
                     continue
 
             else:
-                print('Wrong ship size', ship.health)
+                print('Wrong ship size')
                 print('-'*29)
                 continue
 
