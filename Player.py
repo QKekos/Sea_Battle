@@ -94,7 +94,7 @@ class Player(Field):
 
             # Trying to add ship on field
 
-            try
+            try:
                 self.add_ship(ship)
                 self.needed_ships[str(ship.health)] -= 1
 
