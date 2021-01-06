@@ -50,7 +50,6 @@ class Field:
 
         for i in list(self.needed_ships.keys()):
 
-            ship_count = self.needed_ships[i]
             ship_len = int(i)
 
             attempts = 0
