@@ -44,14 +44,14 @@ class Game(Settings):
 
             if queue:
 
-                change_queue = self.turn(self.player, self.ai)
+                change_queue = self.turn(self.player)
 
                 if change_queue:
                     queue = not queue
 
             else:
 
-                change_queue = self.turn(self.ai, self.player)
+                change_queue = self.turn(self.ai)
 
                 if change_queue:
                     queue = not queue
@@ -69,7 +69,7 @@ class Game(Settings):
                 print('-'*29)
                 break
 
-    def turn(self, attacking_player, attacked_player):
+    def turn(self, attacking_player):
 
         if attacking_player == self.ai:
 
