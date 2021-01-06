@@ -5,7 +5,8 @@ from Ship import Ship
 
 class Player(Field):
 
-    def input_attack_coords(self):
+    @staticmethod
+    def input_attack_coords():
 
         text = 'Input attack coordinates:\n'
 
@@ -25,7 +26,8 @@ class Player(Field):
 
             text = 'Input digits:\n'
 
-    def input_ship_coords(self):
+    @staticmethod
+    def input_ship_coords():
 
         text = 'Input start/end ship coordinates:\n'
 
@@ -42,7 +44,7 @@ class Player(Field):
                 x, y = input_string
 
                 if x.isdigit() and y.isdigit():
-                    return (int(x), int(y))
+                    return int(x), int(y)
 
             elif len(input_string) == 4:
 
